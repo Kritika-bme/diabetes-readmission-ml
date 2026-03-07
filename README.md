@@ -23,13 +23,13 @@ Results consistent with published literature on this dataset (AUC 0.63-0.72).
 
 ## SHAP Explainability Findings
 Top clinical drivers of 30-day readmission risk:
-1. num_lab_procedures — strongest predictor (more tests = sicker patient)
-2. num_medications — higher medication count = more complex condition
-3. time_in_hospital — longer stay = more serious illness
-4. age_numeric — older patients at higher risk
-5. number_inpatient — prior hospitalizations predict future ones
+1. num_lab_procedures â€” strongest predictor (more tests = sicker patient)
+2. num_medications â€” higher medication count = more complex condition
+3. time_in_hospital â€” longer stay = more serious illness
+4. age_numeric â€” older patients at higher risk
+5. number_inpatient â€” prior hospitalizations predict future ones
 
-SHAP analysis reveals the model is clinically interpretable —
+SHAP analysis reveals the model is clinically interpretable â€”
 findings align with established medical knowledge on diabetic readmission risk.
 
 ## Methodology
@@ -95,3 +95,6 @@ findings align with established medical knowledge on diabetic readmission risk.
 ## Author
 Kritika
 B.Tech Biomedical Engineering
+
+
+
